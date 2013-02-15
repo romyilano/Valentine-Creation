@@ -44,6 +44,13 @@
         UIImage *background = [UIImage imageNamed:@"craft-bg"];
         UIImage *centerImage = [UIImage imageNamed:@"craft-frame"];
         
+        self.topImageView.image = banner;
+        self.bottomImageView.image = banner;
+        
+        self.centerImageView.image = centerImage;
+        
+        self.view.backgroundColor = [UIColor colorWithPatternImage:background];
+        
     }
 }
 @end
