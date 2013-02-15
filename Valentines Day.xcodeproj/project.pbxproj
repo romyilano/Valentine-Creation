@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EC69B9F16CDDF8200EC6857 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC69B9E16CDDF8200EC6857 /* UIKit.framework */; };
+		9EC69BA116CDDF8200EC6857 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC69BA016CDDF8200EC6857 /* Foundation.framework */; };
+		9EC69BA316CDDF8200EC6857 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC69BA216CDDF8200EC6857 /* CoreGraphics.framework */; };
+		9EC69BA916CDDF8200EC6857 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BA716CDDF8200EC6857 /* InfoPlist.strings */; };
+		9EC69BAB16CDDF8200EC6857 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC69BAA16CDDF8200EC6857 /* main.m */; };
+		9EC69BAF16CDDF8200EC6857 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC69BAE16CDDF8200EC6857 /* AppDelegate.m */; };
+		9EC69BB116CDDF8200EC6857 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BB016CDDF8200EC6857 /* Default.png */; };
+		9EC69BB316CDDF8200EC6857 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BB216CDDF8200EC6857 /* Default@2x.png */; };
+		9EC69BB516CDDF8200EC6857 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BB416CDDF8200EC6857 /* Default-568h@2x.png */; };
+		9EC69BB816CDDF8200EC6857 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC69BB716CDDF8200EC6857 /* ViewController.m */; };
+		9EC69BBB16CDDF8200EC6857 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BB916CDDF8200EC6857 /* ViewController.xib */; };
+		9EC69BC316CDDF8200EC6857 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC69BC216CDDF8200EC6857 /* SenTestingKit.framework */; };
+		9EC69BC416CDDF8200EC6857 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC69B9E16CDDF8200EC6857 /* UIKit.framework */; };
+		9EC69BC516CDDF8200EC6857 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC69BA016CDDF8200EC6857 /* Foundation.framework */; };
+		9EC69BCD16CDDF8200EC6857 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BCB16CDDF8200EC6857 /* InfoPlist.strings */; };
+		9EC69BD016CDDF8200EC6857 /* Valentines_DayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC69BCF16CDDF8200EC6857 /* Valentines_DayTests.m */; };
+		9EC69BE616CDDFC300EC6857 /* craft-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BDA16CDDFC300EC6857 /* craft-banner.png */; };
+		9EC69BE716CDDFC300EC6857 /* craft-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BDA16CDDFC300EC6857 /* craft-banner.png */; };
+		9EC69BE816CDDFC300EC6857 /* craft-banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BDB16CDDFC300EC6857 /* craft-banner@2x.png */; };
+		9EC69BE916CDDFC300EC6857 /* craft-banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BDB16CDDFC300EC6857 /* craft-banner@2x.png */; };
+		9EC69BEA16CDDFC300EC6857 /* craft-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BDC16CDDFC300EC6857 /* craft-bg.png */; };
+		9EC69BEB16CDDFC300EC6857 /* craft-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BDC16CDDFC300EC6857 /* craft-bg.png */; };
+		9EC69BEC16CDDFC300EC6857 /* craft-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BDD16CDDFC300EC6857 /* craft-bg@2x.png */; };
+		9EC69BED16CDDFC300EC6857 /* craft-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BDD16CDDFC300EC6857 /* craft-bg@2x.png */; };
+		9EC69BEE16CDDFC300EC6857 /* craft-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BDE16CDDFC300EC6857 /* craft-frame.png */; };
+		9EC69BEF16CDDFC300EC6857 /* craft-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BDE16CDDFC300EC6857 /* craft-frame.png */; };
+		9EC69BF016CDDFC300EC6857 /* craft-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BDF16CDDFC300EC6857 /* craft-frame@2x.png */; };
+		9EC69BF116CDDFC300EC6857 /* craft-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BDF16CDDFC300EC6857 /* craft-frame@2x.png */; };
+		9EC69BF216CDDFC300EC6857 /* sweet-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BE016CDDFC300EC6857 /* sweet-banner.png */; };
+		9EC69BF316CDDFC300EC6857 /* sweet-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BE016CDDFC300EC6857 /* sweet-banner.png */; };
+		9EC69BF416CDDFC300EC6857 /* sweet-banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BE116CDDFC300EC6857 /* sweet-banner@2x.png */; };
+		9EC69BF516CDDFC300EC6857 /* sweet-banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BE116CDDFC300EC6857 /* sweet-banner@2x.png */; };
+		9EC69BF616CDDFC300EC6857 /* sweet-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BE216CDDFC300EC6857 /* sweet-bg.png */; };
+		9EC69BF716CDDFC300EC6857 /* sweet-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BE216CDDFC300EC6857 /* sweet-bg.png */; };
+		9EC69BF816CDDFC300EC6857 /* sweet-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BE316CDDFC300EC6857 /* sweet-bg@2x.png */; };
+		9EC69BF916CDDFC300EC6857 /* sweet-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BE316CDDFC300EC6857 /* sweet-bg@2x.png */; };
+		9EC69BFA16CDDFC300EC6857 /* sweet-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BE416CDDFC300EC6857 /* sweet-frame.png */; };
+		9EC69BFB16CDDFC300EC6857 /* sweet-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BE416CDDFC300EC6857 /* sweet-frame.png */; };
+		9EC69BFC16CDDFC300EC6857 /* sweet-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BE516CDDFC300EC6857 /* sweet-frame@2x.png */; };
+		9EC69BFD16CDDFC300EC6857 /* sweet-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69BE516CDDFC300EC6857 /* sweet-frame@2x.png */; };
+		9EC69C0116CDE41600EC6857 /* VACardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC69BFF16CDE41600EC6857 /* VACardViewController.m */; };
+		9EC69C0216CDE41600EC6857 /* VACardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC69BFF16CDE41600EC6857 /* VACardViewController.m */; };
+		9EC69C0316CDE41600EC6857 /* VACardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69C0016CDE41600EC6857 /* VACardViewController.xib */; };
+		9EC69C0416CDE41600EC6857 /* VACardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69C0016CDE41600EC6857 /* VACardViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EC69BC616CDDF8200EC6857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC69B9116CDDF8200EC6857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EC69B9916CDDF8200EC6857;
+			remoteInfo = "Valentines Day";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EC69B9A16CDDF8200EC6857 /* Valentines Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Valentines Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC69B9E16CDDF8200EC6857 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9EC69BA016CDDF8200EC6857 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9EC69BA216CDDF8200EC6857 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9EC69BA616CDDF8200EC6857 /* Valentines Day-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Valentines Day-Info.plist"; sourceTree = "<group>"; };
+		9EC69BA816CDDF8200EC6857 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EC69BAA16CDDF8200EC6857 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EC69BAC16CDDF8200EC6857 /* Valentines Day-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Valentines Day-Prefix.pch"; sourceTree = "<group>"; };
+		9EC69BAD16CDDF8200EC6857 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9EC69BAE16CDDF8200EC6857 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9EC69BB016CDDF8200EC6857 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9EC69BB216CDDF8200EC6857 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9EC69BB416CDDF8200EC6857 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9EC69BB616CDDF8200EC6857 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9EC69BB716CDDF8200EC6857 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9EC69BBA16CDDF8200EC6857 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9EC69BC116CDDF8200EC6857 /* Valentines DayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Valentines DayTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC69BC216CDDF8200EC6857 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9EC69BCA16CDDF8200EC6857 /* Valentines DayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Valentines DayTests-Info.plist"; sourceTree = "<group>"; };
+		9EC69BCC16CDDF8200EC6857 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EC69BCE16CDDF8200EC6857 /* Valentines_DayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Valentines_DayTests.h; sourceTree = "<group>"; };
+		9EC69BCF16CDDF8200EC6857 /* Valentines_DayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Valentines_DayTests.m; sourceTree = "<group>"; };
+		9EC69BDA16CDDFC300EC6857 /* craft-banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "craft-banner.png"; sourceTree = "<group>"; };
+		9EC69BDB16CDDFC300EC6857 /* craft-banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "craft-banner@2x.png"; sourceTree = "<group>"; };
+		9EC69BDC16CDDFC300EC6857 /* craft-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "craft-bg.png"; sourceTree = "<group>"; };
+		9EC69BDD16CDDFC300EC6857 /* craft-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "craft-bg@2x.png"; sourceTree = "<group>"; };
+		9EC69BDE16CDDFC300EC6857 /* craft-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "craft-frame.png"; sourceTree = "<group>"; };
+		9EC69BDF16CDDFC300EC6857 /* craft-frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "craft-frame@2x.png"; sourceTree = "<group>"; };
+		9EC69BE016CDDFC300EC6857 /* sweet-banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweet-banner.png"; sourceTree = "<group>"; };
+		9EC69BE116CDDFC300EC6857 /* sweet-banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweet-banner@2x.png"; sourceTree = "<group>"; };
+		9EC69BE216CDDFC300EC6857 /* sweet-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweet-bg.png"; sourceTree = "<group>"; };
+		9EC69BE316CDDFC300EC6857 /* sweet-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweet-bg@2x.png"; sourceTree = "<group>"; };
+		9EC69BE416CDDFC300EC6857 /* sweet-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweet-frame.png"; sourceTree = "<group>"; };
+		9EC69BE516CDDFC300EC6857 /* sweet-frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweet-frame@2x.png"; sourceTree = "<group>"; };
+		9EC69BFE16CDE41600EC6857 /* VACardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VACardViewController.h; sourceTree = "<group>"; };
+		9EC69BFF16CDE41600EC6857 /* VACardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VACardViewController.m; sourceTree = "<group>"; };
+		9EC69C0016CDE41600EC6857 /* VACardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VACardViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EC69B9716CDDF8200EC6857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC69B9F16CDDF8200EC6857 /* UIKit.framework in Frameworks */,
+				9EC69BA116CDDF8200EC6857 /* Foundation.framework in Frameworks */,
+				9EC69BA316CDDF8200EC6857 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC69BBD16CDDF8200EC6857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC69BC316CDDF8200EC6857 /* SenTestingKit.framework in Frameworks */,
+				9EC69BC416CDDF8200EC6857 /* UIKit.framework in Frameworks */,
+				9EC69BC516CDDF8200EC6857 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EC69B8F16CDDF8200EC6857 = {
+			isa = PBXGroup;
+			children = (
+				9EC69BD916CDDFC300EC6857 /* Images */,
+				9EC69BA416CDDF8200EC6857 /* Valentines Day */,
+				9EC69BC816CDDF8200EC6857 /* Valentines DayTests */,
+				9EC69B9D16CDDF8200EC6857 /* Frameworks */,
+				9EC69B9B16CDDF8200EC6857 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EC69B9B16CDDF8200EC6857 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EC69B9A16CDDF8200EC6857 /* Valentines Day.app */,
+				9EC69BC116CDDF8200EC6857 /* Valentines DayTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EC69B9D16CDDF8200EC6857 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EC69B9E16CDDF8200EC6857 /* UIKit.framework */,
+				9EC69BA016CDDF8200EC6857 /* Foundation.framework */,
+				9EC69BA216CDDF8200EC6857 /* CoreGraphics.framework */,
+				9EC69BC216CDDF8200EC6857 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EC69BA416CDDF8200EC6857 /* Valentines Day */ = {
+			isa = PBXGroup;
+			children = (
+				9EC69BAD16CDDF8200EC6857 /* AppDelegate.h */,
+				9EC69BAE16CDDF8200EC6857 /* AppDelegate.m */,
+				9EC69C0516CDEB2C00EC6857 /* Card */,
+				9EC69C0616CDEB3600EC6857 /* ViewController */,
+				9EC69BA516CDDF8200EC6857 /* Supporting Files */,
+			);
+			path = "Valentines Day";
+			sourceTree = "<group>";
+		};
+		9EC69BA516CDDF8200EC6857 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EC69BA616CDDF8200EC6857 /* Valentines Day-Info.plist */,
+				9EC69BA716CDDF8200EC6857 /* InfoPlist.strings */,
+				9EC69BAA16CDDF8200EC6857 /* main.m */,
+				9EC69BAC16CDDF8200EC6857 /* Valentines Day-Prefix.pch */,
+				9EC69BB016CDDF8200EC6857 /* Default.png */,
+				9EC69BB216CDDF8200EC6857 /* Default@2x.png */,
+				9EC69BB416CDDF8200EC6857 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EC69BC816CDDF8200EC6857 /* Valentines DayTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EC69BCE16CDDF8200EC6857 /* Valentines_DayTests.h */,
+				9EC69BCF16CDDF8200EC6857 /* Valentines_DayTests.m */,
+				9EC69BC916CDDF8200EC6857 /* Supporting Files */,
+			);
+			path = "Valentines DayTests";
+			sourceTree = "<group>";
+		};
+		9EC69BC916CDDF8200EC6857 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EC69BCA16CDDF8200EC6857 /* Valentines DayTests-Info.plist */,
+				9EC69BCB16CDDF8200EC6857 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EC69BD916CDDFC300EC6857 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9EC69BDA16CDDFC300EC6857 /* craft-banner.png */,
+				9EC69BDB16CDDFC300EC6857 /* craft-banner@2x.png */,
+				9EC69BDC16CDDFC300EC6857 /* craft-bg.png */,
+				9EC69BDD16CDDFC300EC6857 /* craft-bg@2x.png */,
+				9EC69BDE16CDDFC300EC6857 /* craft-frame.png */,
+				9EC69BDF16CDDFC300EC6857 /* craft-frame@2x.png */,
+				9EC69BE016CDDFC300EC6857 /* sweet-banner.png */,
+				9EC69BE116CDDFC300EC6857 /* sweet-banner@2x.png */,
+				9EC69BE216CDDFC300EC6857 /* sweet-bg.png */,
+				9EC69BE316CDDFC300EC6857 /* sweet-bg@2x.png */,
+				9EC69BE416CDDFC300EC6857 /* sweet-frame.png */,
+				9EC69BE516CDDFC300EC6857 /* sweet-frame@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9EC69C0516CDEB2C00EC6857 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				9EC69BFE16CDE41600EC6857 /* VACardViewController.h */,
+				9EC69BFF16CDE41600EC6857 /* VACardViewController.m */,
+				9EC69C0016CDE41600EC6857 /* VACardViewController.xib */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
+		9EC69C0616CDEB3600EC6857 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9EC69BB616CDDF8200EC6857 /* ViewController.h */,
+				9EC69BB716CDDF8200EC6857 /* ViewController.m */,
+				9EC69BB916CDDF8200EC6857 /* ViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EC69B9916CDDF8200EC6857 /* Valentines Day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC69BD316CDDF8200EC6857 /* Build configuration list for PBXNativeTarget "Valentines Day" */;
+			buildPhases = (
+				9EC69B9616CDDF8200EC6857 /* Sources */,
+				9EC69B9716CDDF8200EC6857 /* Frameworks */,
+				9EC69B9816CDDF8200EC6857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Valentines Day";
+			productName = "Valentines Day";
+			productReference = 9EC69B9A16CDDF8200EC6857 /* Valentines Day.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EC69BC016CDDF8200EC6857 /* Valentines DayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC69BD616CDDF8200EC6857 /* Build configuration list for PBXNativeTarget "Valentines DayTests" */;
+			buildPhases = (
+				9EC69BBC16CDDF8200EC6857 /* Sources */,
+				9EC69BBD16CDDF8200EC6857 /* Frameworks */,
+				9EC69BBE16CDDF8200EC6857 /* Resources */,
+				9EC69BBF16CDDF8200EC6857 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC69BC716CDDF8200EC6857 /* PBXTargetDependency */,
+			);
+			name = "Valentines DayTests";
+			productName = "Valentines DayTests";
+			productReference = 9EC69BC116CDDF8200EC6857 /* Valentines DayTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EC69B9116CDDF8200EC6857 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Snowyla;
+			};
+			buildConfigurationList = 9EC69B9416CDDF8200EC6857 /* Build configuration list for PBXProject "Valentines Day" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9EC69B8F16CDDF8200EC6857;
+			productRefGroup = 9EC69B9B16CDDF8200EC6857 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EC69B9916CDDF8200EC6857 /* Valentines Day */,
+				9EC69BC016CDDF8200EC6857 /* Valentines DayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EC69B9816CDDF8200EC6857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC69BA916CDDF8200EC6857 /* InfoPlist.strings in Resources */,
+				9EC69BB116CDDF8200EC6857 /* Default.png in Resources */,
+				9EC69BB316CDDF8200EC6857 /* Default@2x.png in Resources */,
+				9EC69BB516CDDF8200EC6857 /* Default-568h@2x.png in Resources */,
+				9EC69BBB16CDDF8200EC6857 /* ViewController.xib in Resources */,
+				9EC69BE616CDDFC300EC6857 /* craft-banner.png in Resources */,
+				9EC69BE816CDDFC300EC6857 /* craft-banner@2x.png in Resources */,
+				9EC69BEA16CDDFC300EC6857 /* craft-bg.png in Resources */,
+				9EC69BEC16CDDFC300EC6857 /* craft-bg@2x.png in Resources */,
+				9EC69BEE16CDDFC300EC6857 /* craft-frame.png in Resources */,
+				9EC69BF016CDDFC300EC6857 /* craft-frame@2x.png in Resources */,
+				9EC69BF216CDDFC300EC6857 /* sweet-banner.png in Resources */,
+				9EC69BF416CDDFC300EC6857 /* sweet-banner@2x.png in Resources */,
+				9EC69BF616CDDFC300EC6857 /* sweet-bg.png in Resources */,
+				9EC69BF816CDDFC300EC6857 /* sweet-bg@2x.png in Resources */,
+				9EC69BFA16CDDFC300EC6857 /* sweet-frame.png in Resources */,
+				9EC69BFC16CDDFC300EC6857 /* sweet-frame@2x.png in Resources */,
+				9EC69C0316CDE41600EC6857 /* VACardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC69BBE16CDDF8200EC6857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC69BCD16CDDF8200EC6857 /* InfoPlist.strings in Resources */,
+				9EC69BE716CDDFC300EC6857 /* craft-banner.png in Resources */,
+				9EC69BE916CDDFC300EC6857 /* craft-banner@2x.png in Resources */,
+				9EC69BEB16CDDFC300EC6857 /* craft-bg.png in Resources */,
+				9EC69BED16CDDFC300EC6857 /* craft-bg@2x.png in Resources */,
+				9EC69BEF16CDDFC300EC6857 /* craft-frame.png in Resources */,
+				9EC69BF116CDDFC300EC6857 /* craft-frame@2x.png in Resources */,
+				9EC69BF316CDDFC300EC6857 /* sweet-banner.png in Resources */,
+				9EC69BF516CDDFC300EC6857 /* sweet-banner@2x.png in Resources */,
+				9EC69BF716CDDFC300EC6857 /* sweet-bg.png in Resources */,
+				9EC69BF916CDDFC300EC6857 /* sweet-bg@2x.png in Resources */,
+				9EC69BFB16CDDFC300EC6857 /* sweet-frame.png in Resources */,
+				9EC69BFD16CDDFC300EC6857 /* sweet-frame@2x.png in Resources */,
+				9EC69C0416CDE41600EC6857 /* VACardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EC69BBF16CDDF8200EC6857 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EC69B9616CDDF8200EC6857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC69BAB16CDDF8200EC6857 /* main.m in Sources */,
+				9EC69BAF16CDDF8200EC6857 /* AppDelegate.m in Sources */,
+				9EC69BB816CDDF8200EC6857 /* ViewController.m in Sources */,
+				9EC69C0116CDE41600EC6857 /* VACardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC69BBC16CDDF8200EC6857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC69BD016CDDF8200EC6857 /* Valentines_DayTests.m in Sources */,
+				9EC69C0216CDE41600EC6857 /* VACardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EC69BC716CDDF8200EC6857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EC69B9916CDDF8200EC6857 /* Valentines Day */;
+			targetProxy = 9EC69BC616CDDF8200EC6857 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EC69BA716CDDF8200EC6857 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EC69BA816CDDF8200EC6857 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9EC69BB916CDDF8200EC6857 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EC69BBA16CDDF8200EC6857 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		9EC69BCB16CDDF8200EC6857 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EC69BCC16CDDF8200EC6857 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EC69BD116CDDF8200EC6857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9EC69BD216CDDF8200EC6857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EC69BD416CDDF8200EC6857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Valentines Day/Valentines Day-Prefix.pch";
+				INFOPLIST_FILE = "Valentines Day/Valentines Day-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9EC69BD516CDDF8200EC6857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Valentines Day/Valentines Day-Prefix.pch";
+				INFOPLIST_FILE = "Valentines Day/Valentines Day-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9EC69BD716CDDF8200EC6857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Valentines Day.app/Valentines Day";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Valentines Day/Valentines Day-Prefix.pch";
+				INFOPLIST_FILE = "Valentines DayTests/Valentines DayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9EC69BD816CDDF8200EC6857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Valentines Day.app/Valentines Day";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Valentines Day/Valentines Day-Prefix.pch";
+				INFOPLIST_FILE = "Valentines DayTests/Valentines DayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EC69B9416CDDF8200EC6857 /* Build configuration list for PBXProject "Valentines Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC69BD116CDDF8200EC6857 /* Debug */,
+				9EC69BD216CDDF8200EC6857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC69BD316CDDF8200EC6857 /* Build configuration list for PBXNativeTarget "Valentines Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC69BD416CDDF8200EC6857 /* Debug */,
+				9EC69BD516CDDF8200EC6857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EC69BD616CDDF8200EC6857 /* Build configuration list for PBXNativeTarget "Valentines DayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC69BD716CDDF8200EC6857 /* Debug */,
+				9EC69BD816CDDF8200EC6857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EC69B9116CDDF8200EC6857 /* Project object */;
+}
