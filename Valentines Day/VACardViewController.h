@@ -14,4 +14,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *centerImageView;
 @property (weak, nonatomic) IBOutlet UILabel *messageLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *bottomImageView;
+
+-(void)setupForStyle:(NSInteger)style message:(NSString *)message;
 @end

@@ -35,4 +35,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)setupForStyle:(NSInteger)style message:(NSString *)message
+{
+    if(style==0)
+    {
+        // craft style
+        UIImage *banner = [UIImage imageNamed:@"craft-banner"];
+        UIImage *background = [UIImage imageNamed:@"craft-bg"];
+        UIImage *centerImage = [UIImage imageNamed:@"craft-frame"];
+        
+    }
+}
 @end
